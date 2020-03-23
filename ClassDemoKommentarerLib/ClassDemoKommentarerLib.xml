@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassDemoKommentarerLib</name>
+    </assembly>
+    <members>
+        <member name="T:ClassDemoKommentarerLib.math.KommentarKlasse">
+            <summary>
+            Udregner forskellige tal
+            </summary>
+        </member>
+        <member name="M:ClassDemoKommentarerLib.math.KommentarKlasse.Plus(System.Int32,System.Int32)">
+            <summary>
+            Lægger to heltal sammen
+            </summary>
+            <param name="x">værdi af det ene tal</param>
+            <param name="y">værdi af det andet tal</param>
+            <returns>summen af de to tal</returns>
+        </member>
+        <member name="M:ClassDemoKommentarerLib.math.KommentarKlasse.Plus(System.Double,System.Double)">
+            <summary>
+            lægger to kommatal sammen - kaldes på klassen
+            </summary>
+            <param name="x">værdi i første kommatal</param>
+            <param name="y">værdi i andet kommatal</param>
+            <returns>summen af de to tal</returns>
+        </member>
+        <member name="M:ClassDemoKommentarerLib.math.KommentarKlasse.ParseInt(System.String)">
+            <summary>
+            konverterer en sterng til et tal
+            </summary>
+            <param name="str">en tekst der ikke må være null og skal kun indeholde cifre</param>
+            <returns>værdien af tekst strengen som heltal </returns>
+            <exception cref="T:System.NullReferenceException">NullReferenceException hvis parameteren str er null</exception>
+            <exception cref="!:NumberFormatException">NumberFormatException hvis parameteren str indeholder andet end cifre</exception>
+        </member>
+    </members>
+</doc>
